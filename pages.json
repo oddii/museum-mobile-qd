@@ -1,0 +1,84 @@
+{
+	"pages": [{
+			"path": "pages/login/index",
+			"style": {}
+		}, {
+			"path": "pages/list/index",
+			"style": {}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {}
+		}, {
+			"path": "pages/list/record",
+			"style": {}
+		}, {
+			"path": "pages/list/relic",
+			"style": {}
+		}, {
+			"path": "pages/list/wait",
+			"style": {}
+		}, {
+			"path": "pages/list/store",
+			"style": {}
+		}, {
+			"path": "pages/details/index",
+			"style": {}
+		}, {
+			"path": "pages/details/record",
+			"style": {}
+		}, {
+			"path": "pages/details/edit",
+			"style": {}
+		}, {
+			"path": "pages/details/imageDelete",
+			"style": {}
+		}, {
+			"path": "pages/list/user",
+			"style": {}
+		}, {
+			"path": "pages/operate/index",
+			"style": {}
+		}
+        ,{
+            "path" : "pages/list/permission",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/list/role",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/details/assignPermission",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/forgetPassword/forgetPassword",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationStyle": "custom",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"selectedColor": "#5677fc",
+		"list": [{
+			"text": "首页",
+			"pagePath": "pages/list/index",
+			"iconPath": "static/image/tabbar/shouye-xianxing.png",
+			"selectedIconPath": "static/image/tabbar/shouye.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/user/index",
+			"iconPath": "static/image/tabbar/yonghu-xianxing.png",
+			"selectedIconPath": "static/image/tabbar/yonghu.png"
+		}]
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"tui-(.*)": "@/thor-ui/thorui/tui-$1/tui-$1.vue"
+	}
+}
